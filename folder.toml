@@ -1,0 +1,32 @@
+rust-hallucination-shield/
+├── Cargo.toml
+├── README.md
+├── src/
+│   ├── lib.rs
+│   ├── guard.rs
+│   ├── models/
+│   │   ├── mod.rs
+│   │   ├── tool_call.rs
+│   │   ├── validation_result.rs
+│   │   └── context.rs
+│   ├── schema/
+│   │   ├── mod.rs
+│   │   ├── loader.rs
+│   │   └── validator.rs
+│   ├── policy/
+│   │   ├── mod.rs
+│   │   ├── engine.rs
+│   │   └── evaluator.rs
+│   ├── fuzzy/
+│   │   ├── mod.rs
+│   │   └── matcher.rs
+│   └── error.rs
+├── examples/
+│   ├── basic_usage.rs
+│   └── agent_demo.rs
+├── tests/
+│   ├── integration_tests.rs
+│   └── unit_tests.rs
+└── config/
+    ├── sample_schemas.yaml
+    └── sample_policies.yaml
